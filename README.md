@@ -92,7 +92,7 @@ The tree needs two of the following: a node and a binary search tree class. The 
     </summary>
 
 </details>
-![Node Class](https://github.com/Greashun/BinaryTreeTutorial/blob/master/src/images/image21.png)
+![Node Class](https://github.com/Greashun/BinaryTreeTutorial/blob/master/src/images/image21.png?raw=true)
 
 ### Implementing a Binary Search Tree:
 <details close>
