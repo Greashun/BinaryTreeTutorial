@@ -78,19 +78,21 @@ The node branches from its parent to its children containing a key and a value. 
 The tree needs two of the following: a node and a binary search tree class. The node acts as a template storing distinct data inside of its branch; while the binary search tree contains methods of how data are returned.  Please follow the implementation guide below:
 
 ### Implementing a Node:
-<details open>
+<details close>
 
+    <summary>
     1. Declare a class with the name “Node”.
-        ![node class](/src/images/image21.png)
+    <!-- <p><img src="./src/images/image21.png"><p> -->
     2. Within the Node class create a constructor method:
     3. The constructor will accept one argument naming it “val”.
     4. Within the constructor’s scope declare and initialize three variables:
         - value (e.g. this.value = val)
         - left (e.g. this.left = null)
         - right (e.g. this.right = null)
-
+    </summary>
 
 </details>
+![Node Class](https://raw.githubusercontent.com/Greashun/BinaryTreeTutorial/src/images/image21.png)
 
 ### Implementing a Binary Search Tree:
 <details close>
