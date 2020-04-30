@@ -4,7 +4,6 @@
 This project's purpose is to teach new programmer’s the binary tree data structure. For those who aren’t familiar with a binary tree, it's a tree data structure with hierarchical relationships. A common usage of trees are folders with each having a collection of additional folders and/or files. When we open our download or a program folder in the local disk these are examples of trees. Before we begin learning please have the following prerequisite and coding environment set up. 
 
 ## Prerequisite 
-------------------------------------------------------------------------------------------------------
     To maximize your understanding of the materials here are the following things needed:
     * Basic knowledge of Git commands
     * Basic knowledge of terminal commands (e.g. Windows, Mac OSX, Linux) 
@@ -15,7 +14,7 @@ This project's purpose is to teach new programmer’s the binary tree data struc
     * Basic understanding of the concept “this”.
 
 ## Installation
--------------------------------------------------------------------------------------------------------
+
 
 ### Forking the repository
 
@@ -73,7 +72,7 @@ This project's purpose is to teach new programmer’s the binary tree data struc
 </details>
 
 ## Basic Tree Properties
--------------------------------------------------------------------------------------------------------
+
 The node branches from its parent to its children containing a key and a value. In every parent node contains two children nodes with the left child containing a value lesser than its parent while the right child contains a larger value. The tree establishes itself with this hierarchy sorting the node’s based on its value. If the node value is lesser than the parent node it will travel to the left node containing values lesser than itself. If the node is greater than its parent node, it will travel to the right node until it finds a node greater than it. Nodes cannot share the same value causing it to overwrite the existing branch. 
 
 The tree needs two of the following: a node and a binary search tree class. The node acts as a template storing distinct data inside of its branch; while the binary search tree contains methods of how data are returned.  Please follow the implementation guide below:
@@ -105,7 +104,7 @@ The tree needs two of the following: a node and a binary search tree class. The 
 By the end of this phase we have created two classes to begin creating the foundation of the tree. 
 
 ## Inserting Data into the Binary Tree
--------------------------------------------------------------------------------------------------------
+
 With both classes created we can now move onto creating methods to insert data into the tree. The tree itself contains nothing or null which gives a fresh start. Once we insert the root of the tree this will then predetermine how each node passed in is sorted. If we were to initialize the tree’s root with the key value of 50, any nodes with a lesser value than the root will be sorted to the left; meanwhile, anything bigger than the root will be sorted to the right. This operation doesn’t just merely stop from one edge to another, it will continue to check existing nodes to place the new node. Whether the new node has the is bigger or lesser than the child node it will initialize either left or right of that child node. 
 
 When inserting data into a tree it's important to remember: no nodes can contain duplicates. Each node from its parents or childrens cannot contain the same key value to prevent a branch from being overwritten. 
@@ -159,7 +158,7 @@ We can now pass in values into the tree by simply calling insert from tree (e.g.
 With the find method, we can now find values within the tree to verify that it exists. Like the insert method, the find method can now be called from the tree variable. 
 
 ## Searching and Returning Data in the Binary Tree
--------------------------------------------------------------------------------------------------------
+
 Now that we are able to create our own tree we can move onto other methods to search for datas. Each method has its own algorithms of how data can be returned. This is important in real life applications where it acts as a way to show data such as files in order. 
 
 ## Pre-Order Traversal
@@ -237,5 +236,5 @@ In post-order traversal, the left and right branches are visited before the root
 The post-order method should return values in an order for each node it has visited from a left-right-root order. Unlike the other traversal methods that we have done so far, the method finds the bottom results of both branches. Until there are no branches left to travel upward the root will be pushed at the last element of the array.  
 
 ## Conclusion
--------------------------------------------------------------------------------------------------------
+
 This is the end of this tutorial. By now you should have familiarity on how to construct a binary tree and implementing search methods to retrieve values from each node. If you would like to practice more 
