@@ -5,14 +5,14 @@ This project's purpose is to teach new programmer’s the binary tree data struc
 
 ## Prerequisite 
     To maximize your understanding of the materials here are the following things needed:
-    * Basic knowledge of Git commands
-    * Basic knowledge of terminal commands (e.g. Windows, Mac OSX, Linux) 
-    * VSCode (or any code editors that you’re familiar with)
-    * Latest Node.js installed on the your computer/laptop 
-    * Basic understanding of constructor functions and methods
+    * Basic knowledge of Git commands.
+    * Basic knowledge of terminal commands (e.g. Windows, Mac OSX, Linux).
+    * VSCode (or any code editors that you’re familiar with).
+    * Latest Node.js installed on the your computer/laptop.
+    * Basic understanding of constructor functions and methods.
     * Basic understanding of an object. 
     * Basic understanding of the concept “this”.
-
+    * Basic understanding of Big O notations.
 ## Installation
 
 
