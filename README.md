@@ -21,7 +21,7 @@ This project's purpose is to teach new programmer’s the binary tree data struc
 
 1. Open your terminal and type “git --version” without quotes:
     - If the terminal returns “git version 2.25.1.windows/mac/linux.1” or equivalent you can proceed with the installation process.
-    - If the the terminal doesn’t return the proper result please install git before proceeding.
+    - If the the terminal doesn’t return the proper result please install git before proceeding using the link provided (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
     <p><img src="./media/image31.png" alt="snap-shot"><p>
 
     *Caution*: If you would like to save your own work within your repository it's recommended to fork over git cloning. Under git clone by pushing changes from your folder this would alter the original repository. 
@@ -81,14 +81,15 @@ This project's purpose is to teach new programmer’s the binary tree data struc
 ### Linux
 <details close>
 
-    1. To install Node on Linux check to see if you have NVM (Node Version Manager) by typing “nvm --version”.
-    2. If the terminal returns “0.34.0” or the latest proceed to the next step. 
-    3. If not copy and paste the following code without quotes, "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash":
-        - Revisit step one to confirm that NVM has been installed. 
+1. To install Node on Linux check to see if you have NVM (Node Version Manager) by typing “nvm --version”.
+    - If the terminal returns “0.33.0” or the latest proceed to the next step. 
+    - If not copy and paste the following code without quotes, "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash"
+    <p><img src="./media/image34.png" alt="snap-shot"><p>
+    
+2. Close then open the terminal:
+        - In the terminal type "nvm --version" with quotes.
         - If successful, type in “nvm install node” without quotes.
-        - Revisit step 2 of the process to check node and npm has been installed.
-    4. Opening the project with a code editor
-    5. With a code editor find the project folder at the directory that it is located. 
+        - Revisit step 2 of "Check Node.js Versions" to check node and npm has been installed.
 </details>
 
 ## Basic Tree Properties
@@ -217,9 +218,9 @@ In pre-order traversal, the current node is visited before any children nodes. A
                 - If it does call the “preOrder” method passing in the current node left property and the default array. 
             - Check if the current node has a right property:
                 - If it does call the “preOrder” method passing in the current node right property and the default array. 
-        <p><img src="./media/image22.png" alt="snap-shot"><p>
+        <p><img src="./media/image39.png" alt="snap-shot"><p>
 3. Once the loop is done return the default array containing all values. 
-        <p><img src="./media/image3.png" alt="snap-shot"> <p>
+        <p><img src="./media/image40.png" alt="snap-shot"> <p>
 </details>
 
 With the “preOrder” method done we can now call it with the tree variable. The pre-order traversal method should return the values in a none orderly fashion. Remember the behavior of the traversal goes from the root-left-right. The method stores the value first into the array then recursively calls the method again until there are no more node’s to visit. 
@@ -244,9 +245,9 @@ In in-order traversal, the left node is visited before the root and the right no
                 - Push the current node’s value into the default array. 
             - Check if the current node has a right property:
                 - If it does call the “inOrder” method passing in the current node right property and the default array. 
-        <p><img src="./media/image2.png"> alt="snap-shot"<p>
+        <p><img src="./media/image38.png"> alt="snap-shot"<p>
 3. Once the loop is done return the default array containing all values. 
-        <p><img src="./media/image15.png" alt="snap-shot"><p>
+        <p><img src="./media/image37.png" alt="snap-shot"><p>
 
 </details>
 
@@ -262,7 +263,7 @@ In post-order traversal, the left and right branches are visited before the root
     - The “preOrder” method will accept two arguments:
         - One parameter should pass in the root value.
         - Second parameter should pass a default array (e.g. data = [])
-        <p><img src="./media/image21.png" alt="snap-shot"><p>
+        <p><img src="./media/image7.png" alt="snap-shot"><p>
 
 2. Create an if statement:
     - Within the statement, check to see if the node isn’t null..
@@ -272,14 +273,14 @@ In post-order traversal, the left and right branches are visited before the root
         - Check if the current node has a right property:
             - If it does call the “postOrder” method passing in the current node right property and the default array. 
         - Push the current node’s value into the default array. 
-        <p><img src="./media/image21.png" alt="snap-shot"><p>
+        <p><img src="./media/image36.png" alt="snap-shot"><p>
 
 3. Once the loop is done return the default array containing all values. 
-        <p><img src="./media/image21.png" alt="snap-shot"><p>
+        <p><img src="./media/image35.png" alt="snap-shot"><p>
 </details>
 
 The post-order method should return values in an order for each node it has visited from a left-right-root order. Unlike the other traversal methods that we have done so far, the method finds the bottom results of both branches. Until there are no branches left to travel upward the root will be pushed at the last element of the array.  
 
 ## Conclusion
 
-This is the end of this tutorial. By now you should have familiarity on how to construct a binary tree and implementing search methods to retrieve values from each node. If you would like to practice more 
+By now you should have constructed a binary tree and search methods to retrieve values from each node.  
