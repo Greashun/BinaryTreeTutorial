@@ -22,14 +22,14 @@ This project's purpose is to teach new programmer’s the binary tree data struc
 1. Open your terminal and type “git --version” without quotes:
     - If the terminal returns “git version 2.25.1.windows/mac/linux.1” or equivalent you can proceed with the installation process.
     - If the the terminal doesn’t return the proper result please install git before proceeding using the link provided (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-    <p><img src="./media/image31.png" alt="snap-shot"><p>
-    Figure 1. Tse, Vincent. "Checking git version". 30 June 2020. 
+    <p align="center"><img src="./media/image31.png" alt="snap-shot"><p>
+    <p align="center">Figure 1. Tse, Vincent. "Checking git version". 30 June 2020.</p> 
 
     *Caution*: If you would like to save your own work within your repository it's recommended to fork over git cloning. Under git clone by pushing changes from your folder this would alter the original repository. 
 
 2. On the github repository “fork” the repository into your personal repo:
-    <p><img src="./media/image32.png" alt="snap-shot"><p>
-        Figure 2. Tse, Vincent. "Forking Binary Tree Tutorial". 30 June 2020. 
+    <p align="center"><img src="./media/image32.png" alt="snap-shot"><p>
+        <p align="center">Figure 2. Tse, Vincent. "Forking Binary Tree Tutorial". 30 June 2020.</p>
 
     - In the forked repo find the “Clone or Download” button.
         <p><img src="./media/image41.png" alt="snap-shot"><p>
