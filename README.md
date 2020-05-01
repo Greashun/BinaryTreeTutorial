@@ -23,19 +23,24 @@ This project's purpose is to teach new programmer’s the binary tree data struc
     - If the terminal returns “git version 2.25.1.windows/mac/linux.1” or equivalent you can proceed with the installation process.
     - If the the terminal doesn’t return the proper result please install git before proceeding using the link provided (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
     <p><img src="./media/image31.png" alt="snap-shot"><p>
+    Figure 1. Tse, Vincent. "Checking git version". 30 June 2020. 
 
     *Caution*: If you would like to save your own work within your repository it's recommended to fork over git cloning. Under git clone by pushing changes from your folder this would alter the original repository. 
 
 2. On the github repository “fork” the repository into your personal repo:
     <p><img src="./media/image32.png" alt="snap-shot"><p>
-    - In the forked rep find the “Clone or Download” button.
-        <p><img src="./media/image31.png" alt="snap-shot"><p>
+        Figure 2. Tse, Vincent. "Forking Binary Tree Tutorial". 30 June 2020. 
+
+    - In the forked repo find the “Clone or Download” button.
+        <p><img src="./media/image41.png" alt="snap-shot"><p>
+        Figure 3. Tse, Vincent. "Find the Clone/Download button on repo". 30 June 2020. 
     - Once clicked the button will show a link; copy the link.
-        <p><img src="./media/image31.png" alt="snap-shot"><p>
+        <p><img src="./media/image42.png" alt="snap-shot"><p>
+        Figure 4. Tse, Vincent. "Copy link from Clone/Download button". 30 June 2020. 
     - In the terminal enter the command “git clone” then paste the link.
-        <p><img src="./media/image31.png" alt="snap-shot"><p>
-    - After pressing enter, a folder of master should appear in the folder.
-    <p><img src="./media/image31.png" alt="snap-shot"><p>
+        <p><img src="./media/image43.png" alt="snap-shot"><p>
+        Figure 5. Tse, Vincent. "Clone the forked repo". 30 June 2020. 
+    - After pressing enter, a folder of "BinaryTreeTutorial" should appear at your current directory. 
 </details>
 
 ### Check Node.js versions 
@@ -43,10 +48,14 @@ This project's purpose is to teach new programmer’s the binary tree data struc
 
 1. Open a new terminal on your computer.
     <p><img src="./media/image29.png" alt="snap-shot"><p>
+    Figure 6. Tse, Vincent. "Open terminal application". 30 June 2020. 
+
 2. In the terminal check if Node.js is installed by typing “node --version” and then “npm --version”.
     - If the terminal returns “v.12.16.1” and “6.13.4” or the latest version of node and/or NPM, proceed to the next step.
     - If the terminal does not return anything then node the version has not yet been installed.
         <p><img src="./media/image30.png" alt="snap-shot"><p>
+         Figure 7. Tse, Vincent. "Checking Node and npm versions". 30 June 2020. 
+
 3. Follow "Install Node.js" for instructions to set up your environment or move on to the "Basic Tree Properties" if already installed.
 </details>
 
@@ -56,12 +65,17 @@ This project's purpose is to teach new programmer’s the binary tree data struc
 
 1. To install Node on Windows please visit the link and download recommended users (https://nodejs.org/en/download/).
     <p><img src="./media/image25.png" alt="snap-shot" width="1500px" height="900px"><p>
+    Figure 8. Tse, Vincent. "Checking git version". 30 June 2020. 
+
 2. Once the exe file has been downloaded go to the download folder.
     <p><img src="./media/image26.png" alt="snap-shot"><p>
+
 3. Once the file is found click the file and press "OK" button to install the Node files. 
     <p><img src="./media/image27.png" alt="snap-shot"><p>
+
 4. Follow the instructions and press the button "next" to complete the installation.
     <p><img src="./media/image28.png" alt="snap-shot"><p>
+
 5. Revisit "Check Node.js versions" step 2 to check node and npm has been installed.
 </details>
 
@@ -281,6 +295,13 @@ In post-order traversal, the left and right branches are visited before the root
 
 The post-order method should return values in an order for each node it has visited from a left-right-root order. Unlike the other traversal methods that we have done so far, the method finds the bottom results of both branches. Until there are no branches left to travel upward the root will be pushed at the last element of the array.  
 
-## Conclusion
+## Conclusion 
+By now you should have constructed a binary tree with methods to insert and find value(s). Let us talk about the time complexity when using these methods. In a best case scenario, the time it would insert/find value(s) is O(log(n)) if the tree is balanced; however, the worse case scenario when the tree is unbalanced, the time it would it take would be O(n). 
 
-By now you should have constructed a binary tree and search methods to retrieve values from each node.  
+<p><img src="./media/image44.png"></p>
+
+The time it would take to insert/find values in a non-balanced tree poorly performs due to operations. This means each time a method visits a node it would take more resources to find the correct node and return a result. Remember a binary tree sorts its values to the left or the right based on the root value and the inserted value. Because the non-balanced tree does not fit this characteristics the operation time takes far longer compared to a balanced one. 
+
+This concludes the tutorial of creating a binary tree. I hope those who are preparing for interviews whether a recent graduate of a coding bootcamp or a university found this useful. If you have any advice or suggestion please send me a message!  
+
+## Citations
