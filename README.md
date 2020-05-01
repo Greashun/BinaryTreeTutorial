@@ -336,7 +336,7 @@ The post-order method should return values in an order for each node it has visi
 ## Conclusion 
 By now you should have constructed a binary tree with methods to insert and find value(s). Let us talk about the time complexity when using these methods. In a best case scenario, the time it would insert/find value(s) is O(log(n)) if the tree is balanced; however, the worse case scenario when the tree is non-balanced, the time it would it take would be O(n). 
 
-<p><img src="./media/image44.png"></p>
+<p align="center"><img src="./media/image44.png"></p>
 Figure 38. "Binary Search Tree Data structure". Interview Cake.  
 
 The time it would take to insert/find values in a non-balanced tree poorly performs due to operations. This means each time a method visits a node it would take more resources to find the correct node and return a result. Remember a binary tree sorts its values to the left or the right based on the root value and the inserted value. Because the non-balanced tree does not fit this characteristics the operation time takes far longer compared to a balanced one. 
